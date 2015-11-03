@@ -6,7 +6,7 @@ relative_permalinks:    true
 
 # Setup
 title:                  argp
-tagline:
+tagline:                &#9959
 # tagline:                The third argument to ioctl() is traditionally named char *argp.
 url:                    http://argp.github.io
 paginate:               1
