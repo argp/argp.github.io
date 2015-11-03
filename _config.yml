@@ -11,6 +11,7 @@ tagline:                ⛧
 url:                    http://argp.github.io
 paginate:               1
 baseurl:                "http://argp.github.io"
+# baseurl:
 
 # Assets
 #
