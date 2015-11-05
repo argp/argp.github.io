@@ -10,8 +10,8 @@ tagline:
 # tagline:                The third argument to ioctl() is traditionally named char *argp.
 url:                    http://argp.github.io
 paginate:               1
-# baseurl:                "http://argp.github.io"
-baseurl:
+baseurl:                "http://argp.github.io"
+# baseurl:
 
 # Assets
 #
