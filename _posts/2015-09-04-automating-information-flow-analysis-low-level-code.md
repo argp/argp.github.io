@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Automating information flow analysis of low level code
+title: Paper notes: Automating information flow analysis of low level code
 tags:
   - paper notes
   - program analysis
