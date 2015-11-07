@@ -1,5 +1,5 @@
 ---
-title: Paper notes: Fuzzy stack hash
+title: "Paper notes: Fuzzy stack hash"
 layout: post
 tags:
   - paper notes
