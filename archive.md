@@ -4,5 +4,5 @@ title: archive
 ---
 
 {% for post in site.posts %}
-  [ {{ post.title }} ]({{ post.url }}) <sup><sub>{{ post.date | date_to_string }}</sub></sup>
+  {{ post.date | date_to_string }} &raquo; [ {{ post.title }} ]({{ post.url }})
 {% endfor %}
