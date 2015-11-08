@@ -8,11 +8,9 @@ researcher working on computer security and applied cryptography.
 My professional profile is available
 [on LinkedIn](http://linkedin.com/in/patroklos/).
 
-<br><br>
 <p align="center">
 <img src="https://argp.github.io/public/argp.jpg?raw=true"/>
 </p>
-<br><br>
 
 I am affiliated with [CENSUS S.A](http://census-labs.com/), Greece's
 premiere IT/computer security consultancy. Most of the open source code
