@@ -13,3 +13,11 @@
 footer {
   margin-bottom: 2rem;
 }
+
+.archive-list {
+  margin-left: 0;
+  
+  > p {
+      margin-bottom: 0;
+  }
+}
