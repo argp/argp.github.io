@@ -1,33 +1,24 @@
-# Permalinks
-#
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:              pretty
 relative_permalinks:    true
 
-# Setup
 title:                  argp
 tagline:
 # tagline:                The third argument to ioctl() is traditionally named char *argp.
 url:                    http://argp.github.io
-paginate:               1
 baseurl:                "http://argp.github.io"
 # baseurl:
 
-# Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
 sass:
   sass_dir:             _sass
   style:                :compressed
 
-# About/contact
 author:
   name:                 argp
   url:
   email:                argp@census-labs.com
 
-# Custom vars
-version:                2.0.0
+version:                6.66
 github:
 repo:                   https://github.com/argp/argp.github.io
 

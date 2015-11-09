@@ -1,15 +1,21 @@
 ---
 layout: page
-title: archive
 ---
+
+<p>
+Hi! My name is argp.
+</p>
 
 <div class="archive-list">
 
-{% for post in site.posts %}
+{% for post in site.posts limit:10 %}
   <p>
     &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
     <sup><sub>{{ post.date | date_to_string }}</sub></sup>
   </p>
 {% endfor %}
+
+<p>&raquo; ...</p>
+<p>&raquo; A list of all posts is available <a href="/archive">here</a></p>
 
 </div>

@@ -115,3 +115,11 @@ a[href^="#fnref:"] {
   font-size: 1.25rem;
   font-weight: 300;
 }
+
+.archive-list {
+  margin-left: 0;
+
+  > p {
+      margin-bottom: 0;
+  }
+}
