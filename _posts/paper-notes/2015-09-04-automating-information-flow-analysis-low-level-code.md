@@ -7,9 +7,9 @@ tags:
   - symbolic execution
   - verification
 ---
-Title: Automating information flow analysis of low level code<br>
+Title: Automating information flow analysis of low level code
 PDF: <a href="/public/68d4b37e9623d0c67e7b856b76ebe4a1.pdf">68d4b37e9623d0c67e7b856b76ebe4a1.pdf</a>
-<br><br>
+
 Uses BAP to lift ARMv7 code to BIL (BAP's intermediate representation language) with
 the <a href="http://hol-theorem-prover.org/">HOL4 model of ARMv7</a> and does forward
 symbolic execution to build a logical formula that describes several executions. At
