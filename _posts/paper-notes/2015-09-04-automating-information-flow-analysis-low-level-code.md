@@ -7,7 +7,7 @@ tags:
   - symbolic execution
   - verification
 ---
-Title: Automating information flow analysis of low level code
+Title: Automating information flow analysis of low level code<br>
 PDF: <a href="/public/68d4b37e9623d0c67e7b856b76ebe4a1.pdf">68d4b37e9623d0c67e7b856b76ebe4a1.pdf</a>
 
 Uses BAP to lift ARMv7 code to BIL (BAP's intermediate representation language) with
