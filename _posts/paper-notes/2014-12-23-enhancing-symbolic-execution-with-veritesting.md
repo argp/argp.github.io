@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Enhancing symbolic execution with veritesting"
+title: "Paper notes: Enhancing symbolic execution with veritesting"
 tags:
   - paper notes
   - dynamic analysis
