@@ -9,7 +9,7 @@ tags:
   - symbolic execution
   - veritesting
 ---
-Title: Enhancing symbolic execution with veritesting
+Title: Enhancing symbolic execution with veritesting<br>
 PDF: <a href="/public/2bf778fdcdfb9924adf057a79a9dc9a0.pdf">2bf778fdcdfb9924adf057a79a9dc9a0.pdf</a>
 
 The core idea is the switching from dynamic symbolic execution to static
