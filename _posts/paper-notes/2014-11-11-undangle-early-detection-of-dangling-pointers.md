@@ -1,5 +1,5 @@
 ---
-title: "Paper notes: Undangle: early detection of dangling pointers in use-after-free and double-free vulnerabilities"
+title: "Paper notes: Undangle"
 layout: post
 tags:
   - paper notes
