@@ -3,8 +3,19 @@ layout: page
 title: about
 ---
 
-My name is Patroklos (argp) Argyroudis and this is my blog. I am a
-researcher working on computer security and applied cryptography.
+My name is Patroklos (argp) Argyroudis and I am a computer security
+researcher. My main expertise is vulnerability research, exploit
+development, reverse engineering and source code auditing. I have
+presented my research at several international security conferences
+(Black Hat USA, Black Hat EU, Infiltrate, PH-Neutral, ZeroNights,
+etc.) on topics such as kernel exploitation, heap exploitation, kernel
+protection technologies, and electronic payments.
+
+I hold a PhD on Computer Science from the University of Dublin, Trinity
+College, where I have also worked as a postdoctoral researcher on applied
+cryptography; designing, implementing and attacking network security
+protocols.
+
 My professional profile is available
 [on LinkedIn](http://linkedin.com/in/patroklos/).
 
