@@ -27,6 +27,6 @@ mean that it is able at a given time to perform the specified operation on the
 specified resource.
 
 The dynamic trust management system
-[&AELIG;THER](http://www.mee.tcd.ie/~ledoyle/EMERGINGNETWORKS/pages/aether.htm) I
+[&AElig;THER](http://www.mee.tcd.ie/~ledoyle/EMERGINGNETWORKS/pages/aether.htm) I
 have designed and implemented as part of my PhD provides an example of using this
 distinction between privilege and permission in practice.
