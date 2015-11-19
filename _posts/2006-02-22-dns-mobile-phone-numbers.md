@@ -8,7 +8,7 @@ tags:
   - security
 ---
 A few hours ago I found an
-[article](http://www-128.ibm.com/developerworks/wireless/library/wi-domain/?ca=dgr-lnxw06DNS4Cells)
+[article](http://web.archive.org/web/20070122183441/http://www-128.ibm.com/developerworks/wireless/library/wi-domain/?ca=dgr-lnxw06DNS4Cells)
 on [IBM developerWorks](http://www.ibm.com/developerworks/) proposing the use
 of DNS names on mobile phone networks with the goal of allowing end users to dial
 a name instead of a number.
