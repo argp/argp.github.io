@@ -1,0 +1,160 @@
+diff -uNr netris-0.52/curses.c netris-0.52-hack/curses.c
+--- netris-0.52/curses.c	2003-08-13 02:33:02.000000000 +0100
++++ netris-0.52-hack/curses.c	2004-12-26 00:06:32.000000000 +0000
+@@ -108,7 +108,7 @@
+ 	move(0, 0);
+ 	addstr("Netris ");
+ 	addstr(version_string);
+-	addstr(" (C) 1994-1996,1999  Mark H. Weaver     "
++	addstr("-argp-hack (C) 1994-1996,1999  Mark H. Weaver     "
+ 			"\"netris -h\" for more info");
+ 	statusYPos = 22;
+ 	statusXPos = 0;
+diff -uNr netris-0.52/game.c netris-0.52-hack/game.c
+--- netris-0.52/game.c	2003-08-13 02:33:02.000000000 +0100
++++ netris-0.52-hack/game.c	2004-12-25 23:55:57.000000000 +0000
+@@ -27,11 +27,11 @@
+ #include <sys/types.h>
+ #include <netinet/in.h>
+ 
+-enum { KT_left, KT_rotate, KT_right, KT_drop, KT_down,
++enum { KT_left, KT_rotate, KT_right, KT_drop, KT_down, KT_hack,
+ 	KT_toggleSpy, KT_pause, KT_faster, KT_redraw, KT_numKeys };
+ 
+ static char *keyNames[KT_numKeys+1] = {
+-	"Left", "Rotate", "Right", "Drop", "Down", "ToggleSpy", "Pause",
++	"Left", "Rotate", "Right", "Drop", "Down", "Hack", "ToggleSpy", "Pause",
+ 	"Faster", "Redraw", NULL };
+ 
+ static char *gameNames[GT_len] = { "OnePlayer", "ClassicTwo" };
+@@ -88,7 +88,7 @@
+ 	return 1;
+ }
+ 
+-ExtFunc void OneGame(int scr, int scr2)
++ExtFunc void OneGame(int scr, int scr2, short jr)
+ {
+ 	MyEvent event;
+ 	int linesCleared, changed = 0;
+@@ -219,6 +219,18 @@
+ 							ShowDisplayInfo();
+ 							changed = 1;
+ 							break;
++						case KT_hack:
++						{
++						 if(game != GT_onePlayer)
++						 {
++						  netint2 data[1];
++						  
++						  data[0] = hton2(jr);
++						  SendPacket(NP_giveJunk, sizeof(data), data);
++						 }
++						 
++						 break;
++						}
+ 						case KT_redraw:
+ 							ScheduleFullRedraw();
+ 							if (paused)
+@@ -356,13 +368,15 @@
+ 
+ ExtFunc int main(int argc, char **argv)
+ {
++	short junkRowsHack = 0;
+ 	int initConn = 0, waitConn = 0, ch;
+ 	char *hostStr = NULL, *portStr = NULL;
+ 
+ 	standoutEnable = colorEnable = 1;
+ 	stepDownInterval = DEFAULT_INTERVAL;
++	junkRowsHack = DEFAULT_JUNK_ROWS;
+ 	MapKeys(DEFAULT_KEYS);
+-	while ((ch = getopt(argc, argv, "hHRs:r:Fk:c:woDSCp:i:")) != -1)
++	while ((ch = getopt(argc, argv, "hHRj:s:r:Fk:c:woDSCp:i:")) != -1)
+ 		switch (ch) {
+ 			case 'c':
+ 				initConn = 1;
+@@ -371,6 +385,16 @@
+ 			case 'w':
+ 				waitConn = 1;
+ 				break;
++			case 'j':
++				junkRowsHack = atoi(optarg);
++
++				if(junkRowsHack < 1 || junkRowsHack > 4)
++				{
++				 fprintf(stderr, "You're either too stupid or too mean\n");
++				 exit(1);
++				}
++				
++				break;
+ 			case 'p':
+ 				portStr = optarg;
+ 				break;
+@@ -522,11 +546,11 @@
+ 				if (!isprint(opponentHost[i]))
+ 					opponentHost[i] = '?';
+ 		}
+-		OneGame(0, 1);
++		OneGame(0, 1, junkRowsHack);
+ 	}
+ 	else {
+ 		game = GT_onePlayer;
+-		OneGame(0, -1);
++		OneGame(0, -1, junkRowsHack);
+ 	}
+ 	return 0;
+ }
+diff -uNr netris-0.52/netris.h netris-0.52-hack/netris.h
+--- netris-0.52/netris.h	2003-08-13 02:33:02.000000000 +0100
++++ netris-0.52-hack/netris.h	2004-12-25 23:33:42.000000000 +0000
+@@ -65,7 +65,9 @@
+ 
+ #define DEFAULT_PORT 9284	/* Very arbitrary */
+ 
+-#define DEFAULT_KEYS "jkl mspf^l"
++#define DEFAULT_JUNK_ROWS 1
++
++#define DEFAULT_KEYS "jkl mhspf^l"
+ 
+ /* Protocol versions */
+ #define MAJOR_VERSION		1	
+diff -uNr netris-0.52/util.c netris-0.52-hack/util.c
+--- netris-0.52/util.c	2003-08-13 02:33:02.000000000 +0100
++++ netris-0.52-hack/util.c	2004-12-25 23:33:42.000000000 +0000
+@@ -67,14 +67,17 @@
+ {
+ 	fprintf(stderr,
+ 	  "Netris version %s (C) 1994-1996,1999  Mark H. Weaver <mhw@netris.org>\n"
++	  "Hack key patch by Patroklos G. Argyroudis <argp@cs.tcd.ie>\n"
+ 	  "Usage: netris <options>\n"
+ 	  "  -h		Print usage information\n"
+ 	  "  -w		Wait for connection\n"
+ 	  "  -c <host>	Initiate connection\n"
+ 	  "  -p <port>	Set port number (default is %d)\n"
++	  "  -j <number>	Number of junk rows to send with the hack key\n"
++	  "		  (default is %d)\n"
+ 	  "  -k <keys>	Remap keys.  The argument is a prefix of the string\n"
+ 	  "		  containing the keys in order: left, rotate, right, drop,\n"
+-	  "		  down-faster, toggle-spying, pause, faster, redraw.\n"
++	  "		  down-faster, hack, toggle-spying, pause, faster, redraw.\n"
+ 	  "		  \"^\" prefixes controls.  (default is \"%s\")\n"
+ 	  "  -i <sec>	Set the step-down interval, in seconds\n"
+ 	  "  -r <robot>	Execute <robot> (a command) as a robot controlling\n"
+@@ -88,7 +91,7 @@
+ 	  "  -C		Disable color\n"
+ 	  "  -H		Show distribution and warranty information\n"
+ 	  "  -R		Show rules\n",
+-	  version_string, DEFAULT_PORT, DEFAULT_KEYS);
++	  version_string, DEFAULT_PORT, DEFAULT_JUNK_ROWS, DEFAULT_KEYS);
+ }
+ 
+ ExtFunc void DistInfo(void)
+@@ -127,6 +130,9 @@
+ 	  "For each group of junk rows given, the empty columns will line\n"
+ 	  "up.  This is intentional.\n"
+ 	  "\n"
++	  "This patched version also supports sending junk rows to your\n"
++	  "opponent with the hack key.\n"
++	  "\n"
+ 	  "The longest surviving player wins the game.\n"
+ 	  "\n"
+ 	  "One player mode\n"

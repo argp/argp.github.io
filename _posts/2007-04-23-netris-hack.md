@@ -1,18 +1,17 @@
 ---
-id: 16
 title: netris hack
-author: argp
 layout: post
-guid: http://argp.gr/blog/?p=16
-permalink: /2007/04/23/netris-hack/
-categories:
-  - code
-  - hacks
 tags:
   - code
   - netris
+  - hack
 ---
-[This patch][1] I coded against [netris version 0.52][2] allows you to send junk rows to your opponent. The default key to do this is `h` and the default number of rows to send is `1`. You can change the former by remapping the keys (with the `-k` switch) and the latter with the new `-j` switch (see the output of `netris -h` for more details). Have fun and don&#8217;t be too mean.
+[This patch](/public/netris-0.52-argp-hack.patch) I coded against
+[netris version
+0.52](http://http.debian.net/debian/pool/main/n/netris/netris_0.52.orig.tar.gz)
+allows you to send junk rows to your opponent. The default key to do this is `h`
+and the default number of rows to send is `1`. You can change the former by
+remapping the keys (with the `-k` switch) and the latter with the new `-j` switch
+(see the output of `netris -h` for more details).
 
- [1]: http://ntrg.cs.tcd.ie/~argp/code/netris-0.52-argp-hack.diff
- [2]: ftp://ftp.netris.org/pub/netris/netris-0.52.tar.gz
+Have fun and don't be too mean.
