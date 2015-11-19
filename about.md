@@ -21,12 +21,14 @@ cryptography; designing, implementing and attacking network security
 protocols.
 
 My professional profile is available
-[on LinkedIn](http://linkedin.com/in/patroklos/).
+[on LinkedIn](http://linkedin.com/in/patroklos/). Sometimes
+[I tweet interesting things](https://twitter.com/_argp), but more often
+I just explore black metal lore.
 
 I am affiliated with [CENSUS S.A](http://census-labs.com/), Greece's
 premiere IT/computer security consultancy. Most of the open source code
 I have released and the projects I am contributing to can be found
 [on GitHub](https://github.com/argp/). A selection of my research
-work is available [here](http://census-labs.com/research/).
+work is available [here](/research/).
 
 PGP key: [B561 F038 BD15 771C 4135 639C A055 3D94 026C 9427](http://argp.github.io/argp_pgp.asc)
