@@ -31,3 +31,33 @@ Miami, USA, April 2015. [[slides]](https://speakerdeck.com/argp/orlyeh-the-shado
 [[code]](https://github.com/CENSUS/shadow)
 * [SummerCon 2015](http://web.archive.org/web/20150919005103/http://www.summercon.org/presentations.html#firefox),
 New York, USA, July 2015.
+
+### Project Heapbleed
+
+> Heap related bugs (such as buffer overflows, use-after-frees, dangling/stale
+> pointers, double frees) leading to corruptions of virtual memory and vulnerable
+> conditions, constitute the most common type of memory corruption bugs. The
+> exploitation of heap vulnerabilities is a process that requires a lot of time and
+> effort. It requires meticulous understanding of the underlying heap allocator; its
+> data structures (metadata) and its allocation/deallocation algorithms. It requires
+> understanding of how the target application uses the API provided by the heap
+> allocator to manage dynamic memory and the allocation patterns that emerge due
+> to this use. It also requires understanding of the application-specific data and
+> how/where these are placed on the heap. Finally, it requires studying of the way
+> the user can influence the application and use its provided functionality to
+> control its heap as reliably as possible with the goal to create conditions aiding
+> exploitation. All these must be viewed in the context of complicated bugs, since
+> low-hanging fruits are scarce, and the vendors' adoption of increasingly
+> sophisticated exploitation mitigation technologies. We argue that although the
+> details between the different heap allocators, target applications and bugs at hand
+> obviously vary, the heap exploitation methodologies that have been formed by
+> practical experience can be abstracted to reusable primitives that can be applied
+> to new targets. Project Heapbleed is our attempt to define, clearly articulate,
+> categorize and where applicable implement these primitives, aiming to provide a
+> practical reusable heap exploitation toolset.
+
+* [ZeroNights](http://2014.zeronights.org/conference/agenda.html#patroklos),
+Moscow, Russia, November 2014. [[slides]](https://speakerdeck.com/argp/project-heapbleed)
+[[video]](https://www.youtube.com/watch?v=IAFqhzNgJgI)
+* [BalCCon](https://2k14.balccon.org/index.php?title=Project_Heapbleed), Novi Sad,
+Serbia, September 2014. [[video]](https://www.youtube.com/watch?v=-smvfojecvs)
