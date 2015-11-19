@@ -27,6 +27,7 @@ title: research
 
 * [INFILTRATE Security
 Conference](http://web.archive.org/web/20150315014310/http://www.infiltratecon.com/speakers.html#firefox),
-Miami Beach, USA, April 2015. [[slides]](https://speakerdeck.com/argp/orlyeh-the-shadow-over-firefox)
+Miami, USA, April 2015. [[slides]](https://speakerdeck.com/argp/orlyeh-the-shadow-over-firefox)
+[[code]](https://github.com/CENSUS/shadow)
 * [SummerCon 2015](http://web.archive.org/web/20150919005103/http://www.summercon.org/presentations.html#firefox),
 New York, USA, July 2015.
