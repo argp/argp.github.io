@@ -1,29 +1,30 @@
-# Use of `relative_permalinks` ensures post links from the index work properly.
+# Use of `relative_permalinks` ensures post links from the index work properly
 permalink:              pretty
 relative_permalinks:    true
 
 title:                  argp
 tagline:
-# tagline:                The third argument to ioctl() is traditionally named char *argp.
+# tagline:              The third argument to ioctl() is traditionally named char *argp.
 url:                    http://argp.github.io
 baseurl:                "http://argp.github.io"
 # baseurl:
 
 sass:
-  sass_dir:             _sass
-  style:                :compressed
+    sass_dir:           _sass
+    style:              :compressed
 
 author:
-  name:                 argp
-  url:
-  email:                argp@census-labs.com
+    name:               argp
+    url:
+    email:              argp@census-labs.com
 
 version:                6.66
 github:
 repo:                   https://github.com/argp/argp.github.io
 
 pages_list:
-    about:      '/about'
-    archive:    '/archive'
+    about:              '/about'
+    archive:            '/archive'
+    research:           '/research'
 
 # EOF
