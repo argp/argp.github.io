@@ -22,7 +22,7 @@ protocols.
 
 My professional profile is available
 [on LinkedIn](http://linkedin.com/in/patroklos/). Sometimes
-[I tweet interesting things](https://twitter.com/_argp), but more often
+[I tweet interesting things](https://twitter.com/_argp), but most often
 I just explore black metal lore.
 
 I am affiliated with [CENSUS S.A](http://census-labs.com/), Greece's
