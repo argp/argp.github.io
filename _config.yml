@@ -23,8 +23,7 @@ github:
 repo:                   https://github.com/argp/argp.github.io
 
 pages_list:
-    about:              '/about'
-    archive:            '/archive'
+    posts:              '/posts'
     research:           '/research'
 
 # EOF
