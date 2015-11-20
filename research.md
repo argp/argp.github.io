@@ -61,3 +61,21 @@ Moscow, Russia, November 2014. [[slides]](https://speakerdeck.com/argp/project-h
 [[video]](https://www.youtube.com/watch?v=IAFqhzNgJgI)
 * [BalCCon](https://2k14.balccon.org/index.php?title=Project_Heapbleed), Novi Sad,
 Serbia, September 2014. [[video]](https://www.youtube.com/watch?v=-smvfojecvs)
+
+### Firefox Exploitation
+
+> The Mozilla Firefox web browser has a new memory allocator named `jemalloc`
+> enabled by default on all supported platforms (Windows, OS X, Linux, Android
+> and Firefox OS). Therefore, the traditional platform-specific heap exploitation
+> techniques (like `unlinkink` and `frontlinking`) are no longer applicable
+> when attacking new Firefox heap corruption vulnerabilities. In this talk
+> we will develop novel exploitation approaches and primitives that can be
+> used to attack Mozilla Firefox via its new heap manager. We will build on
+> our previously published work on this area and include practical hands-on
+> demonstrations of researching Firefox vulnerabilities and developing
+> exploits for them. Moreover, we will release an updated and enhanced version
+> of our jemalloc debugging utility (`unmask_jemalloc`).
+
+* [AthCon](http://cc.thinkst.com/conference/view/656/), Athens, Greece, June 2013.
+[[slides]](https://speakerdeck.com/argp/firefox-exploitation)
+[[code]](https://github.com/argp/unmask_jemalloc)
