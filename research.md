@@ -79,3 +79,29 @@ Serbia, September 2014. [[video]](https://www.youtube.com/watch?v=-smvfojecvs)
 * [AthCon](http://cc.thinkst.com/conference/view/656/), Athens, Greece, June 2013.
 [[slides]](https://speakerdeck.com/argp/firefox-exploitation)
 [[code]](https://github.com/argp/unmask_jemalloc)
+
+### Exploiting the jemalloc Memory Allocator: Owning Firefox's Heap <sub>with Chariton Karamitas</sub>
+
+> jemalloc is a userland memory allocator that is being increasingly adopted
+> by software projects as a high performance heap manager. It is used in
+> Mozilla Firefox for the Windows, Mac OS X and Linux platforms, and as the
+> default system allocator on the FreeBSD and NetBSD operating systems.
+> Facebook also uses jemalloc in various components to handle the load of its
+> web services. However, despite such widespread use, there is no work on the
+> exploitation of jemalloc.
+>
+> Our research addresses this. We will begin by examining the architecture of
+> the jemalloc heap manager and its internal concepts, while focusing on
+> identifying possible attack vectors. jemalloc does not utilize concepts such
+> as unlinking or frontlinking that have been used extensively in the past
+> to undermine the security of other allocators. Therefore, we will develop
+> novel exploitation approaches and primitives that can be used to attack
+> jemalloc heap corruption vulnerabilities. As a case study, we will investigate
+> Mozilla Firefox and demonstrate the impact of our developed exploitation
+> primitives on the browser's heap. In order to aid the researchers willing to
+> continue our work, we will also release our jemalloc debugging tool belt.
+
+* [Black Hat USA](https://www.blackhat.com/html/bh-us-12/bh-us-12-briefings.html#Argyroudis),
+Las Vegas, USA, July 2012.
+[[slides]](https://speakerdeck.com/argp/exploiting-the-jemalloc-memory-allocator-owning-firefoxs-heap)
+[[code]](https://github.com/argp/unmask_jemalloc)
