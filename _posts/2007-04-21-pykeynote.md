@@ -44,7 +44,7 @@ Unix-like systems that satisfy the following requirements:
 
 For the details you can browse the
 [repository](https://github.com/argp/pykeynote);
-I have included a comprehensive testsuite and a sample application. There is also
-the [epydoc generated API
-documentation](http://ntrg.cs.tcd.ie/~argp/software/pykeynote-1.0-doc/) to help
-you start coding.
+I have included a
+[comprehensive testsuite](https://github.com/argp/pykeynote/blob/master/test.py)
+and a [sample
+application](https://github.com/argp/pykeynote/blob/master/sample_app.py).
