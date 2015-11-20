@@ -80,7 +80,8 @@ Serbia, September 2014. [[video]](https://www.youtube.com/watch?v=-smvfojecvs)
 [[slides]](https://speakerdeck.com/argp/firefox-exploitation)
 [[code]](https://github.com/argp/unmask_jemalloc)
 
-### Exploiting the jemalloc Memory Allocator: Owning Firefox's Heap <sub>with Chariton Karamitas</sub>
+### Exploiting the jemalloc Memory Allocator: Owning Firefox's Heap
+#### with Chariton Karamitas
 
 > jemalloc is a userland memory allocator that is being increasingly adopted
 > by software projects as a high performance heap manager. It is used in
