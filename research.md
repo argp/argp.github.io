@@ -106,3 +106,29 @@ Serbia, September 2014. [[video]](https://www.youtube.com/watch?v=-smvfojecvs)
 Las Vegas, USA, July 2012.
 [[slides]](https://speakerdeck.com/argp/exploiting-the-jemalloc-memory-allocator-owning-firefoxs-heap)
 [[code]](https://github.com/argp/unmask_jemalloc)
+
+### Heap Exploitation Abstraction by Example
+&mdash; with Chariton Karamitas
+
+> In the first part of the talk we focused on presenting examples of exploiting heap
+> managers. Specifically, we talked about attacking the FreeBSD kernel allocator
+> (UMA), the Linux kernel allocator (SLUB), and the jemalloc userland allocator. In
+> the second part, we identified the common elements of these three allocators and
+> categorized them into the following:
+>
+> * End-user allocations
+> * Allocation containers
+> * Container groupings
+> * Execution-specific (thread, CPU core) metadata
+>
+> We then proceeded to make an argument that the value of abstracting heap
+> exploitation is in having a library of attack techniques, or primitives, that
+> can be reused on other allocators. We took the concept of weird machines, as
+> defined by Sergey Bratus and Halvar Flak, and applied it to heap managers.
+> We consider an allocator to be a deterministic automaton; metadata
+> corruption attacks can then be viewed as corruptions of the automaton's
+> transition function. Application-specific attacks, like adjacent memory region
+> corruptions, can be viewed as manipulations of the automaton's determinacy.
+
+* [OWASP AppSec Research](http://2012.appsec.eu/schedule/index.html), Athens,
+Greece, July 2012. [[slides]](https://speakerdeck.com/argp/heap-exploitation-abstraction-by-example)
