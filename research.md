@@ -63,6 +63,7 @@ Moscow, Russia, November 2014. [[slides]](https://speakerdeck.com/argp/project-h
 Serbia, September 2014. [[video]](https://www.youtube.com/watch?v=-smvfojecvs)
 
 ### Firefox Exploitation
+&mdash; with Chariton Karamitas
 
 > The Mozilla Firefox web browser has a new memory allocator named 'jemalloc'
 > enabled by default on all supported platforms (Windows, OS X, Linux, Android
