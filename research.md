@@ -118,6 +118,30 @@ Las Vegas, USA, July 2012.
 * [OWASP AppSec Research](http://2012.appsec.eu/schedule/index.html), Athens,
 Greece, July 2012. [[slides]](https://speakerdeck.com/argp/heap-exploitation-abstraction-by-example)
 
+### Protecting the Core: Kernel Exploitation Mitigations
+&mdash; with Dimitrios Glynos
+
+> The exploitation of operating system kernel vulnerabilities has received a
+> great deal of attention lately. In userland most generic exploitation
+> approaches have been defeated by countermeasure technologies. Contrary to
+> userland protections, exploitation mitigation mechanisms for kernel memory
+> corruptions have not been widely adopted. Recently this has started to
+> change. Most operating system kernels have started to include
+> countermeasures against NULL page mappings, stack and heap corruptions, as
+> well as for other vulnerability classes. At the same time, researchers
+> have concentrated on developing ways to bypass certain kernel protections
+> on various operating systems. This presentation will describe in detail
+> the state-of-the-art in kernel exploitation mitigations adopted (or not)
+> by various operating systems (Windows, Linux, Mac OS X, FreeBSD) and
+> mobile platforms (iOS, Android). Moreover, it will also provide
+> approaches, notes, hints and references to existing work for bypassing
+> some of these kernel protections.
+
+* [Black Hat
+Europe](https://www.blackhat.com/html/bh-eu-11/bh-eu-11-briefings.html#Argyroudis),
+Barcelona, Spain, March 2011.
+[[slides]](https://speakerdeck.com/argp/protecting-the-core-kernel-exploitation-mitigations)
+
 ### Binding the Daemon: FreeBSD Kernel Stack and Heap Exploitation
 
 > FreeBSD is widely accepted as one of the most reliable and performance-driven
