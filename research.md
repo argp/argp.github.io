@@ -62,25 +62,6 @@ Moscow, Russia, November 2014. [[slides]](https://speakerdeck.com/argp/project-h
 * [BalCCon](https://2k14.balccon.org/index.php?title=Project_Heapbleed), Novi Sad,
 Serbia, September 2014. [[video]](https://www.youtube.com/watch?v=-smvfojecvs)
 
-### Firefox Exploitation
-&mdash; with Chariton Karamitas
-
-> The Mozilla Firefox web browser has a new memory allocator named 'jemalloc'
-> enabled by default on all supported platforms (Windows, OS X, Linux, Android
-> and Firefox OS). Therefore, the traditional platform-specific heap exploitation
-> techniques (like unlinkink and frontlinking) are no longer applicable
-> when attacking new Firefox heap corruption vulnerabilities. In this talk
-> we will develop novel exploitation approaches and primitives that can be
-> used to attack Mozilla Firefox via its new heap manager. We will build on
-> our previously published work on this area and include practical hands-on
-> demonstrations of researching Firefox vulnerabilities and developing
-> exploits for them. Moreover, we will release an updated and enhanced version
-> of our jemalloc debugging utility ('unmask_jemalloc').
-
-* [AthCon](http://cc.thinkst.com/conference/view/656/), Athens, Greece, June 2013.
-[[slides]](https://speakerdeck.com/argp/firefox-exploitation)
-[[code]](https://github.com/argp/unmask_jemalloc)
-
 ### Exploiting the jemalloc Memory Allocator: Owning Firefox's Heap
 &mdash; with Chariton Karamitas
 
@@ -106,6 +87,9 @@ Serbia, September 2014. [[video]](https://www.youtube.com/watch?v=-smvfojecvs)
 * [Black Hat USA](https://www.blackhat.com/html/bh-us-12/bh-us-12-briefings.html#Argyroudis),
 Las Vegas, USA, July 2012.
 [[slides]](https://speakerdeck.com/argp/exploiting-the-jemalloc-memory-allocator-owning-firefoxs-heap)
+[[code]](https://github.com/argp/unmask_jemalloc)
+* [AthCon](http://cc.thinkst.com/conference/view/656/), Athens, Greece, June 2013.
+[[slides]](https://speakerdeck.com/argp/firefox-exploitation)
 [[code]](https://github.com/argp/unmask_jemalloc)
 
 ### Heap Exploitation Abstraction by Example
@@ -133,3 +117,27 @@ Las Vegas, USA, July 2012.
 
 * [OWASP AppSec Research](http://2012.appsec.eu/schedule/index.html), Athens,
 Greece, July 2012. [[slides]](https://speakerdeck.com/argp/heap-exploitation-abstraction-by-example)
+
+### Binding the Daemon: FreeBSD Kernel Stack and Heap Exploitation
+
+> FreeBSD is widely accepted as one of the most reliable and performance-driven
+> operating systems currently available in both the open source and proprietary
+> worlds. While the exploitation of kernel vulnerabilities has been researched
+> in the context of the Windows and Linux operating systems, FreeBSD, and BSD
+> systems in general, have not received the same attention. This presentation
+> will initially examine the exploitation of kernel stack overflow vulnerabilities
+> on FreeBSD. The development process of a privilege escalation kernel stack
+> smashing exploit will be documented for vulnerability CVE-2008-3531. The second
+> part of the presentation will present a detailed security analysis of the
+> Universal Memory Allocator (UMA), the FreeBSD kernel's memory allocator.
+> We will examine how UMA overflows can lead to arbitrary code execution in
+> the context of the latest stable FreeBSD kernel (8.0-RELEASE), and we will
+> develop an exploitation methodology for privilege escalation and kernel
+> continuation.
+
+* [Black Hat
+Europe](https://www.blackhat.com/html/bh-eu-10/bh-eu-10-briefings.html#Argyroudis),
+Barcelona, Spain, April 2010.
+[[slides]](https://speakerdeck.com/argp/binding-the-daemon-freebsd-kernel-stack-and-heap-exploitation)
+* [PH-Neutral 0x7db](http://ph-neutral.darklab.org/previous/0x7db/talks.html),
+Berlin, Germany, May 2011. [[slides]](https://speakerdeck.com/argp/freebsd-kernel-massacre)
