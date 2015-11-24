@@ -61,7 +61,7 @@ architecture. The day ended with Vincenzo Iozzo's "Mac Exploit Kitchen" workshop
 which was great fun.
 
 In closing I would say that when compared to
-[2010](http://argp.github.io/2010/04/22/blackhat-eu-2010-update/), this year's
+[2010](https://argp.github.io/2010/04/22/blackhat-eu-2010-update/), this year's
 Black Hat Europe had more interesting (to me) talks. It was my second Black Hat
 Europe as a presenter in a row and it was great meeting new people as well as
 seeing those I met last year.
