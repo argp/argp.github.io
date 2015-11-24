@@ -25,5 +25,6 @@ repo:                   https://github.com/argp/argp.github.io
 pages_list:
     posts:              '/posts'
     research:           '/research'
+    advisories:         '/advisories'
 
 # EOF
