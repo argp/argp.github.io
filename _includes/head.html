@@ -1,4 +1,15 @@
 <head>
+  {% if site.enforce_ssl %}
+  
+  <script type="text/javascript">
+    var enforce = "{{ site.enforce_ssl }}";
+    if ((enforce == window.location.host) && (window.location.protocol != "https:"))
+    {
+        window.location = window.location.toString().replace(/^http:/, "https:");
+    }
+  </script>
+  {% endif %}
+
   <meta charset="UTF-8">
   <link href="http://gmpg.org/xfn/11" rel="profile">
 
