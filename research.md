@@ -90,7 +90,6 @@ Las Vegas, USA, July 2012.
 [[code]](https://github.com/argp/unmask_jemalloc)
 * [AthCon](http://cc.thinkst.com/conference/view/656/), Athens, Greece, June 2013.
 [[slides]](https://speakerdeck.com/argp/firefox-exploitation)
-[[code]](https://github.com/argp/unmask_jemalloc)
 
 ### Heap Exploitation Abstraction by Example
 &mdash; with Chariton Karamitas
