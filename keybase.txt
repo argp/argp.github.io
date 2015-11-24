@@ -1,0 +1,73 @@
+==================================================================
+https://keybase.io/argp
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://argp.github.io
+  * I am argp (https://keybase.io/argp) on keybase.
+  * I have a public key with fingerprint B561 F038 BD15 771C 4135  639C A055 3D94 026C 9427
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101aeffc9967e55185b88baaaef17597f084489e3a4a3672f0f2b2278d3c9acfaf70a",
+            "fingerprint": "b561f038bd15771c4135639ca0553d94026c9427",
+            "host": "keybase.io",
+            "key_id": "a0553d94026c9427",
+            "kid": "0101aeffc9967e55185b88baaaef17597f084489e3a4a3672f0f2b2278d3c9acfaf70a",
+            "uid": "c8e6bfebfa8de415a0c043c4ea363200",
+            "username": "argp"
+        },
+        "service": {
+            "hostname": "argp.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1448367954,
+    "expire_in": 157680000,
+    "prev": "510a022da79bc53ea27c708423dd8b4afe34196c36d13c5b6e89f1f9ad221b2a",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owGtUmlMVFcYHQalgGlBENEW2/KMLbQgb1+mCwqW0pCmRVliI5m+5b6Zx8DM+N5j
+Ooi4QVGwIJYBsYhSmo4kViNp0i0RcUmpUTYjRBpoWTqKEigSBEsl7Xu0TfqjP3v/
+3NzvO+d853y51U/6GwL9mjJf8xjzPC/6Xb/HGbIysqUiiHMIhZCpCLKBpQvkCUBR
+zTZJgEwQjMAIC0SRZxiSAgSB0ARH0xzLakWEIhhKhGkcpxmAsTiLkRQqwiLKoShF
+CxjPsLzIihTMQnGQKNktQHbKkl3VZDmCREQYozkBISgK4XEEI0iM4VmYIDCBwWGU
+5BkcpTSi1aHoDM0cxypgo+TQatrDvGTvP/D/s++CJTmeBiQnAk5kaQHgCMHCPIxj
+PA40LobCsA5UgGxn84HuSrY4oeI4SKu4JB7oS9VT/Ku70SKp1gLurzRO2aE6eEee
+1rOqqlMx6Vy10KmDPwCc+W8ZMyfZBW2LGsMFZEVy2CEToiF5VdJ1ES2OFoQh8DgI
+uJ2SDMySjiAokoa1o88BLk2SQGAWRlGBzaIYjicwwKIUT2nrQDFBoDmcFQGGIwzJ
+Y6SAYDzBkYBmRERkWAFFEQ7Vt6KAnXYHZNJGqaxF01Qki51VC2QAFQeXG6OWGfwC
+DQHLjfr/MgQHhf7z6SK2hRoqBxY6hssy3dvVu3c3YfhvE/uuBbgV+on9V/p2XaVH
+7m8/mV/58US6yVY5/lRIzPij80Yp4UDbu9Vlh9IKXj9obFCG9t53RwSthLH6B4ur
+Nlz8PsVDj1Wd25d2pjPtu8Ur5+nUd+4ZQ3cH19dmdiVFn8qLrf3sk8IZn7dwfVhJ
+kCe7secP0JK+NT6Om53aUdXpO9Y8kLo25PgLiaWP3e5M561w8/XhmJ49k57GpMWr
+t7yYv/Awa09GTR+WfvrV1gzXsg9z0z8nD7bSsnWwYuahcObLtlXJ30AB22oeD/4g
+vBd6uHlqbuTnG7mRv16ar+2OZgh7VEJ8zkLI/t1fVSTsPYQ93xS45dldVQsBIZeV
+0pnlvWriZiTe+G3N28HdzWrL6TtvTh+OGJz0E/Oa3x/y+e6QvqKKT5Ma1bUDhrIT
+devP2mypF5unfWlJTZ1zZ1N+eZQ1OlDTO5dKeNu+iK9iwp++2f3RfO/Yj2vk6pyy
+hJ/qdpZnVGwhIkeqy986kk48s9Djmv898nJJ+Gxy9Y3BsRVxRGT/SeXC+FFfcf+O
+qfb+hjryVFnruuNB+UOvjPZtuFCcOHx0pLHjRL8YMj89GxuW40sp8S+9fa7rQHv7
+ZMODgHp78uhsVIwXj7VGr4t6Y/jSzdzbtmPX1jz3tRftsrxkpZOjV7ZmT8hsS07H
+itWrt/qHHdn08p8=
+=4f6D
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/argp
+
+==================================================================
