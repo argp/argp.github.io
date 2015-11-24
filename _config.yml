@@ -1,13 +1,11 @@
-enforce_ssl:            argp.github.io
-
 permalink:              pretty
 relative_permalinks:    true
 
 title:                  argp
 tagline:
 # tagline:              The third argument to ioctl() is traditionally named char *argp.
-url:                    https://argp.github.io
-baseurl:                "https://argp.github.io"
+url:                    http://argp.github.io
+baseurl:                "http://argp.github.io"
 # baseurl:
 
 sass:
