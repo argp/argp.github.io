@@ -116,6 +116,8 @@ Las Vegas, USA, July 2012.
 
 * [OWASP AppSec Research](http://2012.appsec.eu/schedule/index.html), Athens,
 Greece, July 2012. [[slides]](https://speakerdeck.com/argp/heap-exploitation-abstraction-by-example)
+* [FOSSCOMM 2011](http://census-labs.com/news/2011/05/17/fosscomm-2011/),
+Patras, Greece, May 2011. [[slides]](https://speakerdeck.com/argp/patras-heap-massacre)
 
 ### Protecting the Core: Kernel Exploitation Mitigations
 &mdash; with Dimitrios Glynos
