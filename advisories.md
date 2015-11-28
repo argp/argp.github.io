@@ -29,6 +29,10 @@ overflow](http://argp.github.io/2009/12/01/linux-kernel-sunrpc-bug/)
 overflow](http://census-labs.com/news/2009/10/14/gif2png-cgi/)
 <sup><sub>14 Oct 2009</sub></sup>
 <br>
+&raquo; [Resource leaks, memory leaks and NULL dereferences in the FreeBSD
+kernel](http://goo.gl/JHmzAc)
+<sup><sub>24-31 Aug 2009</sub></sup>
+<br>
 &raquo; [OrzHTTPd remote stack overflow and format string
 vulnerabilities](http://argp.github.io/2009/08/26/flickr-is-the-new-bugtraq/)
 <sup><sub>21 Aug 2009</sub></sup>
