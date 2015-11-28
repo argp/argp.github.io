@@ -28,3 +28,7 @@ overflow](http://argp.github.io/2009/12/01/linux-kernel-sunrpc-bug/)
 &raquo; [gif2png CGI command line buffer
 overflow](http://census-labs.com/news/2009/10/14/gif2png-cgi/)
 <sup><sub>14 Oct 2009</sub></sup>
+<br>
+&raquo; [OrzHTTPd remote stack overflow and format string
+vulnerabilities](http://argp.github.io/2009/08/26/flickr-is-the-new-bugtraq/)
+<sup><sub>21 Aug 2009</sub></sup>
