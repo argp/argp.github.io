@@ -30,7 +30,7 @@ overflow](http://census-labs.com/news/2009/10/14/gif2png-cgi/)
 <sup><sub>14 Oct 2009</sub></sup>
 <br>
 &raquo; [Resource leaks, memory leaks and NULL dereferences in the FreeBSD
-kernel](http://goo.gl/JHmzAc)
+kernel](https://bugs.freebsd.org/bugzilla/buglist.cgi?bug_status=__all__&content=patroklos%20argyroudis&no_redirect=1&order=Importance&product=&query_format=specific)
 <sup><sub>24-31 Aug 2009</sub></sup>
 <br>
 &raquo; [OrzHTTPd remote stack overflow and format string
