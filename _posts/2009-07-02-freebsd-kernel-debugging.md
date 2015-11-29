@@ -17,18 +17,17 @@ writing) adds some [very useful
 features](http://www.freebsd.org/cgi/man.cgi?query=ddb&apropos=0&sektion=0&manpath=FreeBSD+7.1-RELEASE),
 ddb is still lacking the flexibility of [gdb](http://www.gnu.org/software/gdb/).
 
-The FreeBSD developer&#8217;s handbook has a section on <a 
-href="http://www.freebsd.org/doc/en_US.ISO8859-1/books/developers-handbook/kerne
-ldebug-online-gdb.html" target="blank">kernel debugging using remote gdb</a>, 
+The FreeBSD developer's handbook has a section on [kernel debugging using remote
+gdb](http://www.freebsd.org/doc/en_US.ISO8859-1/books/developers-handbook/kerne%20ldebug-online-gdb.html), 
 but it is not directly applicable to VMware-based installations. The solution 
-is to use VMware&#8217;s feature of creating virtual serial ports as named 
+is to use VMware's feature of creating virtual serial ports as named 
 pipes to emulate a serial connection between two FreeBSD virtual machines.
 
-The first FreeBSD virtual machine, let&#8217;s call it the target host to 
-follow the handbook&#8217;s terminology, is the machine that the experimental 
+The first FreeBSD virtual machine, let's call it the target host to 
+follow the handbook's terminology, is the machine that the experimental 
 kernel code runs on. The second, the debugging host, is the one that will run 
 gdb and connect over the virtual serial connection to the target host. The 
-target host&#8217;s kernel needs to be compiled with the following options:
+target host's kernel needs to be compiled with the following options:
 
 {% highlight bash %}
 makeoptions DEBUG=-g
@@ -46,7 +45,7 @@ remote debugging over this port:
 hint.sio.0.flags="0x90"
 {% endhighlight %}
 
-Also, edit the target host&#8217;s `/etc/sysctl.conf` file to include the 
+Also, edit the target host's `/etc/sysctl.conf` file to include the 
 following self-explanatory kernel parameters:
 
 {% highlight bash %}
@@ -64,7 +63,7 @@ go to the tab of the target host, click *Edit virtual machine
 settings*->*Add*->*Serial Port*->*Output to named pipe*. Enter `/tmp/com_1` (or 
 whatever you want) as the named pipe, select *This end is the server* and *The 
 other end is a virtual machine*. Then perform the same steps on the debugging 
-host&#8217;s virtual machine, enter the same named pipe, but select *This end 
+host's virtual machine, enter the same named pipe, but select *This end 
 is the client* in this case. The `/tmp/com_1` named pipe on the machine that 
 runs VMware (Linux in our case) will be used as a virtual serial connection 
 between the two FreeBSD guests.
@@ -90,8 +89,7 @@ port device and the kernel to be debugged:
 
 {% highlight bash %}
 [root@debugging_host ~]# cd /usr/obj/usr/src/sys/TARGET_HOST
-[root@debugging_host /usr/obj/usr/src/sys/TARGET_HOST]# kgdb -r /dev/cuad0 \
-  ./kernel.debug
+[root@debugging_host /usr/obj/usr/src/sys/TARGET_HOST]# kgdb -r /dev/cuad0 ./kernel.debug
 GNU gdb 6.1.1 [FreeBSD]
 Copyright 2004 Free Software Foundation, Inc.
 GDB is free software, covered by the GNU General Public License, and you are
@@ -100,21 +98,16 @@ Type "show copying" to see the conditions.
 There is absolutely no warranty for GDB.  Type "show warranty" for details.
 This GDB was configured as "i386-marcel-freebsd".
 Switching to remote protocol
-kdb_enter (msg=0x23 <Address 0x23 out of bounds>) at
- /usr/src/sys/kern/subr_kdb.c:270
-270 }
+kdb_enter (msg=0x23 <Address 0x23 out of bounds>) at /usr/src/sys/kern/subr_kdb.c:270
  
 Unread portion of the kernel message buffer:
 KDB: enter: sysctl debug.kdb.enter
  
-#0  kdb_enter (msg=0x23 <Address 0x23 out of bounds>) at
- /usr/src/sys/kern/subr_kdb.c:270
-270 }
+#0  kdb_enter (msg=0x23 <Address 0x23 out of bounds>) at /usr/src/sys/kern/subr_kdb.c:270
 (kgdb) bt
-#0  kdb_enter (msg=0x23 <Address 0x23 out of bounds>) at
- /usr/src/sys/kern/subr_kdb.c:270
-#1  0xc0657710 in kdb_sysctl_enter (oidp=0xc08d3fa0, arg1=0x0, arg2=0,
- req=0xcca54c04) at /usr/src/sys/kern/subr_kdb.c:175
+#0  kdb_enter (msg=0x23 <Address 0x23 out of bounds>) at /usr/src/sys/kern/subr_kdb.c:270
+#1  0xc0657710 in kdb_sysctl_enter (oidp=0xc08d3fa0, arg1=0x0, arg2=0, req=0xcca54c04) at
+ /usr/src/sys/kern/subr_kdb.c:175
 #2  0xc0646f2b in sysctl_root (oidp=0x0, arg1=0x0, arg2=0, req=0xcca54c04) at
  /usr/src/sys/kern/kern_sysctl.c:1248
 #3  0xc0647128 in userland_sysctl (td=0x23, name=0xcca54c74, namelen=3,
