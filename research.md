@@ -166,7 +166,6 @@ Barcelona, Spain, April 2010.
 [[slides]](https://speakerdeck.com/argp/binding-the-daemon-freebsd-kernel-stack-and-heap-exploitation)
 * [PH-Neutral 0x7db](http://ph-neutral.darklab.org/previous/0x7db/talks.html),
 Berlin, Germany, May 2011. [[slides]](https://speakerdeck.com/argp/freebsd-kernel-massacre)
-* [University of Piraeus, Event #16: Computer
-Security](http://rainbow.cs.unipi.gr/projects/oss/wiki/EventSixteen), Athens,
+* [University of Piraeus](http://rainbow.cs.unipi.gr/projects/oss/wiki/EventSixteen), Athens,
 Greece, May 2008. [[slides
 (in greek)]](https://speakerdeck.com/argp/tekhnikes-ekmetalleuses-trototeton-asphaleias-purena)
