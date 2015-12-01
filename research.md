@@ -164,6 +164,8 @@ Barcelona, Spain, March 2011.
 Europe](https://www.blackhat.com/html/bh-eu-10/bh-eu-10-briefings.html#Argyroudis),
 Barcelona, Spain, April 2010.
 [[slides]](https://speakerdeck.com/argp/binding-the-daemon-freebsd-kernel-stack-and-heap-exploitation)
+[[paper]](/public/binding-the-daemon-wp.pdf)
+[[code]](https://github.com/argp/binding-the-daemon)
 * [PH-Neutral](http://ph-neutral.darklab.org/previous/0x7db/talks.html),
 Berlin, Germany, May 2011. [[slides]](https://speakerdeck.com/argp/freebsd-kernel-massacre)
 * [University of Piraeus](http://rainbow.cs.unipi.gr/projects/oss/wiki/EventSixteen), Athens,
