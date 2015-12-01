@@ -1,6 +1,6 @@
 ---
 layout: page
-title: advisories
+title: bugs
 ---
 
 *Note: Incomplete; more will be added later.*
