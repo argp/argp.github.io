@@ -1,9 +1,11 @@
-# Ignore docs files
+# Ignore specific files
 _gh_pages
 _site
 .ruby-version
 .sass-cache
 notes
+bugs.md.image
+public/bugs.png
 
 # Numerous always-ignore extensions
 *.diff
