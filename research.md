@@ -84,6 +84,10 @@ Serbia, September 2014. [[video]](https://www.youtube.com/watch?v=-smvfojecvs)
 > primitives on the browser's heap. In order to aid the researchers willing to
 > continue our work, we will also release our jemalloc debugging tool belt.
 
+* [Phrack](http://www.phrack.org/), [Pseudomonarchia
+jemallocum](http://www.phrack.org/issues/68/10.html#article), Volume 0x0e, Issue 0x44.
+* [Phrack](http://www.phrack.org/), [The Art of Exploitation: Exploiting
+VLC](http://www.phrack.org/issues/68/13.html#article), Volume 0x0e, Issue 0x44.
 * [Black Hat USA](https://www.blackhat.com/html/bh-us-12/bh-us-12-briefings.html#Argyroudis),
 Las Vegas, USA, July 2012.
 [[slides]](https://speakerdeck.com/argp/exploiting-the-jemalloc-memory-allocator-owning-firefoxs-heap)
@@ -160,6 +164,8 @@ Barcelona, Spain, March 2011.
 > develop an exploitation methodology for privilege escalation and kernel
 > continuation.
 
+* [Phrack](http://www.phrack.org/), [Exploiting UMA, FreeBSD's kernel memory
+allocator](http://www.phrack.org/issues/66/8.html#article), Volume 0x0d, Issue 0x42.
 * [Black Hat
 Europe](https://www.blackhat.com/html/bh-eu-10/bh-eu-10-briefings.html#Argyroudis),
 Barcelona, Spain, April 2010.
