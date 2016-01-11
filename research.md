@@ -177,3 +177,6 @@ Berlin, Germany, May 2011. [[slides]](https://speakerdeck.com/argp/freebsd-kerne
 * [University of Piraeus](http://rainbow.cs.unipi.gr/projects/oss/wiki/EventSixteen), Athens,
 Greece, May 2008. [[slides
 (in greek)]](https://speakerdeck.com/argp/tekhnikes-ekmetalleuses-trototeton-asphaleias-purena)
+
+*For my older academic publications see [my Google Scholar
+page](https://scholar.google.com/citations?user=6IUnc4EAAAAJ).*
