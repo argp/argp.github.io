@@ -3,7 +3,6 @@ relative_permalinks:    true
 
 title:                  argp
 tagline:
-# tagline:              The third argument to ioctl() is traditionally named char *argp.
 url:                    http://argp.github.io
 baseurl:                "http://argp.github.io"
 # baseurl:
