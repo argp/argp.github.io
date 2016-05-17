@@ -25,6 +25,8 @@ title: research
 > for Windows (and the WinDbg debugger). The new version of unmask_jemalloc, named
 > 'shadow', will of course be released as open source along with the talk.
 
+* [Phrack](http://www.phrack.org/), [OR'LYEH? The Shadow over
+Firefox](http://www.phrack.org/issues/69/14.html#article), Volume 0x0f, Issue 0x45.
 * [INFILTRATE Security
 Conference](http://web.archive.org/web/20150315014310/http://www.infiltratecon.com/speakers.html#firefox),
 Miami, USA, April 2015. [[slides]](https://speakerdeck.com/argp/orlyeh-the-shadow-over-firefox)
