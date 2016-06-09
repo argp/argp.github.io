@@ -10,19 +10,19 @@ vulnerability](http://census-labs.com/news/2011/10/03/netvolution-referer-SQLi/)
 <sup><sub>03 Oct 2011</sub></sup>
 <br>
 &raquo; [FreeBSD kernel NFS client local
-vulnerabilities](http://argp.github.io/2010/05/23/freebsd-kernel-nfsclient/)
+vulnerabilities](https://argp.github.io/2010/05/23/freebsd-kernel-nfsclient/)
 <sup><sub>23 May 2010</sub></sup>
 <br>
 &raquo; [Monkey HTTPd improper input validation
-vulnerability](http://argp.github.io/2009/12/14/monkey-httpd-vulnerability/)
+vulnerability](https://argp.github.io/2009/12/14/monkey-httpd-vulnerability/)
 <sup><sub>14 Dec 2009</sub></sup>
 <br>
 &raquo; [CoreHTTP web server off-by-one buffer overflow
-vulnerability](http://argp.github.io/2009/12/02/corehttp-vulnerability/)
+vulnerability](https://argp.github.io/2009/12/02/corehttp-vulnerability/)
 <sup><sub>02 Dec 2009</sub></sup>
 <br>
 &raquo; [Linux kernel SUNRPC off-by-two buffer
-overflow](http://argp.github.io/2009/12/01/linux-kernel-sunrpc-bug/)
+overflow](https://argp.github.io/2009/12/01/linux-kernel-sunrpc-bug/)
 <sup><sub>01 Dec 2009</sub></sup>
 <br>
 &raquo; [gif2png CGI command line buffer
@@ -34,5 +34,5 @@ kernel](https://bugs.freebsd.org/bugzilla/buglist.cgi?bug_status=__all__&content
 <sup><sub>24-31 Aug 2009</sub></sup>
 <br>
 &raquo; [OrzHTTPd remote stack overflow and format string
-vulnerabilities](http://argp.github.io/2009/08/26/flickr-is-the-new-bugtraq/)
+vulnerabilities](https://argp.github.io/2009/08/26/flickr-is-the-new-bugtraq/)
 <sup><sub>21 Aug 2009</sub></sup>

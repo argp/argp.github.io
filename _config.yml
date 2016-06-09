@@ -2,8 +2,8 @@ permalink:              pretty
 
 title:                  argp
 tagline:
-url:                    http://argp.github.io
-baseurl:                "http://argp.github.io"
+url:                    https://argp.github.io
+baseurl:                "https://argp.github.io"
 # baseurl:
 
 sass:
