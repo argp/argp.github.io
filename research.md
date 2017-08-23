@@ -6,7 +6,7 @@ title: research
 *Note: Incomplete; more will be added later.*
 
 ### The Shadow over Android: Heap Exploitation Assistance  
-&nbsp;&nbsp;&nbsp;&nbsp;for Android's libc Allocator
+### &nbsp;&nbsp;&nbsp;&nbsp;for Android's libc Allocator
 &mdash; with Vasilis Tsaousoglou
 
 > The jemalloc allocator has been adopted as the default libc malloc(3)
@@ -27,7 +27,7 @@ April 2017. [[slides]](https://speakerdeck.com/argp/the-shadow-over-android)
 [[code]](https://github.com/CENSUS/shadow)
 
 ### Keynote: Reflections on vulnerability research;  
-&nbsp;&nbsp;&nbsp;&nbsp;is the only winning move not to play?
+### &nbsp;&nbsp;&nbsp;&nbsp;is the only winning move not to play?
 
 * [Hackers to Hackers Conference (H2HC)](https://www.h2hc.com.br/h2hc/en/eventos),
 Sao Paulo, Brazil, October 2016.
