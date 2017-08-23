@@ -5,6 +5,31 @@ title: research
 
 *Note: Incomplete; more will be added later.*
 
+### The Shadow over Android: Heap Exploitation Assistance for Android's libc Allocator
+&mdash; with Vasilis Tsaousoglou
+
+> The jemalloc allocator has been adopted as the default libc malloc(3)
+> implementation on Android since version 5.0, and is being used up to the
+> latest one (7.0 - Nougat). We have previously analyzed in depth memory
+> corruption attacks against jemalloc as a standalone allocator and in the
+> context of the Firefox browser. In this talk we will focus on presenting
+> attacks against jemalloc as the main userland allocator of Android devices
+> (smartphones and tablets). We have extended our jemalloc heap exploration
+> and exploitation tool called 'shadow' to support Android (both ARM32 and
+> ARM64), and we will be demonstrating its use on understanding the impact of
+> heap corruption vulnerabilities and developing exploits for them. The new
+> version of shadow (supporting Android ARM32/ARM64 and Firefox x86/x86-64)
+> will be released as open source software along with the talk.
+
+* [INFILTRATE Security Conference](http://www.infiltratecon.org/archives/), Miami, USA,
+April 2017. [[slides]](https://speakerdeck.com/argp/the-shadow-over-android)
+[[code]](https://github.com/CENSUS/shadow)
+
+### Keynote: Reflections on vulnerability research; is the only winning move not to play?
+
+* [Hackers to Hackers Conference (H2HC)](https://www.h2hc.com.br/h2hc/en/eventos),
+Sao Paulo, Brazil, October 2016.
+
 ### OR’LYEH? The Shadow over Firefox
 
 > The Mozilla Firefox browser has a new garbage collection (GC) implementation
@@ -27,9 +52,8 @@ title: research
 
 * [Phrack](http://www.phrack.org/), [OR'LYEH? The Shadow over
 Firefox](http://www.phrack.org/issues/69/14.html#article), Volume 0x0f, Issue 0x45.
-* [INFILTRATE Security
-Conference](http://web.archive.org/web/20150315014310/http://www.infiltratecon.com/speakers.html#firefox),
-Miami, USA, April 2015. [[slides]](https://speakerdeck.com/argp/orlyeh-the-shadow-over-firefox)
+* [INFILTRATE Security Conference](http://www.infiltratecon.org/archives/), Miami, USA,
+April 2015. [[slides]](https://speakerdeck.com/argp/orlyeh-the-shadow-over-firefox)
 [[code]](https://github.com/CENSUS/shadow)
 * [SummerCon](http://web.archive.org/web/20150919005103/http://www.summercon.org/presentations.html#firefox),
 New York, USA, July 2015.
