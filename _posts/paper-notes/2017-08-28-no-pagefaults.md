@@ -18,8 +18,24 @@ hinder the presented attacks.
 
 The threat model under which the attacks are developed assumes a completely
 attacker-controlled operating system (both userland and kernel), and
-knowledge of the source code of the attacked SGX application.
+knowledge of the source code of the attacked SGX application (in order to
+monitor interesting page accesses).
 
-The first attack is based on accessed and dirty bits 
+The first attack exploits that accessed (and dirty) bits are set on pages
+accessed/used by SGX application code in secure enclave mode. The page table
+entry (PTE) attribute (accessed and/or dirty) that corresponds to the page
+accessed in SGX mode is stored in the kernel memory of the unprotected system.
 
-The second attack uses the 
+The second attack is based on cache misses; PTEs that refer to interesting
+pages are evicted from the TLB (using `clflush`). When the enclave is
+entered the TLB is cleared by design, therefore the attacker measures the
+time required to reload the interesting PTEs when the enclave has returned.
+
+Both attacks require the identification of interesting pages (and the
+corresponding PTEs) in advance. There is an initial step in which the
+attacked SGX application code is run outside the enclave, and a PC trace of
+page accesses is recorded.
+
+The authors have <a href="https://github.com/jovanbulck/sgx-pte">published
+their implementation</a>, which I haven't tested, but from a quick pass
+seems complete.
