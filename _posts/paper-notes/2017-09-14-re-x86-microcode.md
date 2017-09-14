@@ -26,7 +26,7 @@ register values are copied to their respective match registers. The match
 registers (which are eight by design) can be used to run the updated
 microcode triads by redirecting execution to the new addresses in RAM. The
 authors use this to hook CPU microcode triads and run their version of the
-div instruction for example. One limitation (apart from the only eight
+`div` instruction for example. One limitation (apart from the only eight
 available match registers) is that instructions are separated into
 performance critical ones (called direct path instructions), and more complex
 ones (called vector path instructions). Match registers are used only for the
