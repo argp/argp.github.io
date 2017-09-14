@@ -13,10 +13,7 @@ PDF: <a href="/public/133f02627cbd3771ad5d4b09729cfce7.pdf">133f02627cbd3771ad5d
 A very interesting paper with technical details on the x86 microcode inner
 workings of AMD's K8 and K10 CPUs. The reason for focusing on these old CPUs
 is that other/newer ones cryptographically protect their microcode updates,
-apparently both for authenticity/integrity and confidentiality. The paper is
-densely written, without much verbose academic language, so if you're
-interested in the topic, you need to read it and don't rely on these brief
-notes ;)
+both for authenticity/integrity and confidentiality.
 
 AMD's K8 and K10 microcode updates are encoded (but not encrypted or signed)
 in a proprietary format which is only partly explained in the paper. The update
@@ -51,3 +48,6 @@ patch for the Linux kernel</a> that applies a microcode update from file
 <a href="https://github.com/RUB-SysSec/Microcode/tree/master/updates">various
 sample updates</a> (in binary and encoded format, and microinstruction source)
 implementing instrumentation and backdoor PoCs described in the paper.
+
+The references seem complete, apart from neglecting to cite Ben Hawkes'
+<a href="http://inertiawar.com/microcode/">notes on Intel microcode updates</a>.
