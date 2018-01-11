@@ -5,7 +5,7 @@ title: research
 
 *Note: Incomplete; more will be added later.*
 
-### iOS kernel exploitation archaeology
+### iOS Kernel Exploitation Archaeology
 
 > The evasi0n7 jailbreak was released by the evad3rs on 22nd December 2013
 > targeting 7.0 to 7.1b3 iOS devices (iDevices). This talk documents the
