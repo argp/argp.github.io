@@ -8,7 +8,7 @@ title: research
 ### iOS Kernel Exploitation Archaeology
 
 > The evasi0n7 jailbreak was released by the evad3rs on 22nd December 2013
-> targeting 7.0 to 7.1b3 iOS devices (iDevices). This talk documents the
+> targeting devices running iOS 7.0 to 7.1b3. This talk documents the
 > reverse engineering process of evasi0n7's main kernel exploit, which was
 > performed in order to not only understand the underlying vulnerability, but
 > more importantly to document the exploitation techniques the evad3rs have
@@ -16,8 +16,8 @@ title: research
 > very important but often ignored step in device/embedded exploitation
 > talks), the encountered problems and how they were overcome. I will then
 > explain the underlying vulnerability, and the reverse engineering of the
-> implemented exploitation techniques. Finally, I will present a detailed step
-> by-step re-implementation of the kernel exploit.
+> implemented exploitation techniques. Finally, I will present a detailed
+> step-by-step re-implementation of the kernel exploit.
 
 * [34th Chaos Communication Congress
 (34C3)](https://events.ccc.de/congress/2017/Fahrplan/events/8720.html),
