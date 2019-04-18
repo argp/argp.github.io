@@ -5,6 +5,26 @@ title: research
 
 *Note: Incomplete; more will be added later.*
 
+### Vs com.apple.security.sandbox
+
+> The iOS sandbox kernel extension implements one of the fundamental security
+> technologies deployed on Apple's devices (iPhones, iPads, etc.) for limiting
+> local privilege escalation and post-exploitation. The sandbox utilizes
+> Apple-specified policies to restrict what operations both system-provided
+> services and user-installed applications can perform. The sandbox kernel
+> extension is closed-source both on iOS and macOS; furthermore the iOS sandbox
+> policies are not available in plain text, but compiled and packed in the binary
+> of the extension itself. In this talk I will initially present how the iOS
+> sandbox kernel extension specifies and enforces policies, along with
+> implementation details that will be useful for the next step. I will then
+> explain in detail the process of reverse engineering the extension in order to
+> unpack and decompile all the sandbox policies embedded in it. All the presented
+> details apply to and have been tested on the latest iOS version (12.1.3 beta 2
+> at the time of this writing).
+
+* [CanSecWest 2019](https://cansecwest.com/post/2019-02-07-20:00:00_2019_Speakers),
+Vancouver, Canada, March 2019. [[slides]](https://speakerdeck.com/argp/vs-com-dot-apple-dot-security-dot-sandbox)
+
 ### iOS Kernel Exploitation Archaeology
 
 > The evasi0n7 jailbreak was released by the evad3rs on 22nd December 2013
