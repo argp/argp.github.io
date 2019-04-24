@@ -22,7 +22,7 @@ title: research
 > details apply to and have been tested on the latest iOS version (12.1.3 beta 2
 > at the time of this writing).
 
-* [CanSecWest 2019](https://cansecwest.com/post/2019-02-07-20:00:00_2019_Speakers),
+* [CanSecWest](https://cansecwest.com/post/2019-02-07-20:00:00_2019_Speakers),
 Vancouver, Canada, March 2019. [[slides]](https://speakerdeck.com/argp/vs-com-dot-apple-dot-security-dot-sandbox)
 
 ### iOS Kernel Exploitation Archaeology
