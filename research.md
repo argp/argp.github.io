@@ -24,6 +24,7 @@ title: research
 
 * [CanSecWest](https://cansecwest.com/post/2019-02-07-20:00:00_2019_Speakers),
 Vancouver, Canada, March 2019. [[slides]](https://speakerdeck.com/argp/vs-com-dot-apple-dot-security-dot-sandbox)
+* [0x41con](https://0x41con.eu/), Amsterdam, the Netherlands, May 2019.
 
 ### iOS Kernel Exploitation Archaeology
 
