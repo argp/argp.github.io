@@ -1,5 +1,5 @@
 ---
-title: "Paper notes: Time-ordered event traces: a new debugging primitive for concurrency bugs"
+title: "Paper notes: Time-ordered event traces"
 layout: post
 tags:
   - paper notes
